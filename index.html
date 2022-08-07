@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBASE Task2</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Registration form</h1>
+    <div class="formw">
+        <form id="con_for">
+            <label for="tfname" class="Labels">First Name: </label>
+            <input id="tfname" type="text" placeholder="First Name" required class="inpt">
+<br>
+            <label for="tlname" class="Labels">Last Name: </label>
+            <input id="tlname" type="text" placeholder="Last Name"required class="inpt">
+            <br> 
+
+            <label for="tmail" class="Labels">Email:</label>
+            <input id="tmail" type="email" placeholder="email@mail.com"required class="inpt">
+            <br>  
+
+            <label for="tphone" class="Labels">Phone: </label>
+            <input type="tel" id="tphone" placeholder="+91 **********" maxlength="10" class="inpt">
+            <br>
+
+            <label for="tdate" class="Labels">Date:</label>
+            <input id="tdate" type="date"required class="inpt">
+  <br>
+
+            <label for="tpwd" class="Labels">Password:</label>
+            <input id='tpwd' type="password" placeholder="******" class="inpt">
+            
+            <br>
+            <input id="tsubmit" type="submit">
+    </form>
+
+        
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyB1WAksyXgiG-xDELRxgjsEFUkzIOMGxBE",
+          authDomain: "contact-form-edc80.firebaseapp.com",
+          databaseURL: "https://contact-form-edc80-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "contact-form-edc80",
+          storageBucket: "contact-form-edc80.appspot.com",
+          messagingSenderId: "895329841338",
+          appId: "1:895329841338:web:eaa141865a80d4a7d4d283"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+   <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>

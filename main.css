@@ -1,0 +1,55 @@
+h1 {
+    color: blueviolet;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+
+.formw {
+    background-color: rgb(240, 240, 240);
+    background-image: linear-gradient(to left,rgb(226, 226, 226),rgba(255, 255, 255, 0.7),rgba(243, 243, 243, 0.5));
+    
+}
+
+#con_for{
+    background-color: rgb(240, 240, 240);
+    padding: 1em;
+    text-align: center;
+}
+    
+
+.Labels {
+    color: rgb(5, 5, 5);
+    font-family: 'Montserrat';
+}
+.inpt{
+    margin-left: 0.5em;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 1em;
+    height: 2.5em;
+    padding-left: 1em;
+    border-radius: 0.3em;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+    
+}
+
+
+#tsubmit {
+    border: none;
+    border-radius: 0.2em;
+    padding-top: 0em;
+    margin-top: 2em;
+    font-size: 1em;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 0.5em;
+}
+
+#tsubmit:hover {
+    background-color: rgb(158, 79, 231);
+}
